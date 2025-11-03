@@ -2,10 +2,10 @@
 double x, y, z, r;
 
 Console.WriteLine("Enter a, b, c, d (by enter): ");
-a = Convert.ToInt32(Console.ReadLine());
-b = Convert.ToInt32(Console.ReadLine());
-c = Convert.ToInt32(Console.ReadLine());
-d = Convert.ToInt32(Console.ReadLine());
+a = double.Parse(Console.ReadLine());
+b = double.Parse(Console.ReadLine());
+c = double.Parse(Console.ReadLine());
+d = double.Parse(Console.ReadLine());
 
 x = (a + 2 * b - c + d) / (c * d) + (a + b)/(c-d) - (a*a)/(b*b);
 y = (5*(a+b)*(c-d)) / (1/2.0 * c) + d*d * ((a*a - b*b) / (b-a));
