@@ -1,0 +1,2 @@
+﻿double a, b, c, d;
+
