@@ -1,11 +1,15 @@
 ﻿double a, b, x, m, n;
 double z1, z2, y;
 
-Console.WriteLine("Enter a, b, c, d (by enter): ");
+Console.Write("Enter a: ");
 a = double.Parse(Console.ReadLine());
+Console.Write("Enter b: ");
 b = double.Parse(Console.ReadLine());
+Console.Write("Enter x: ");
 x = double.Parse(Console.ReadLine());
+Console.Write("Enter m: ");
 m = double.Parse(Console.ReadLine());
+Console.Write("Enter n: ");
 n = double.Parse(Console.ReadLine());
 
 z1 = ((m - 1) * Math.Sqrt(m) - (n - 1) * Math.Sqrt(n)) / (Math.Sqrt(m*m*m*n) + n*m + m*m - m);
