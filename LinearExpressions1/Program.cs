@@ -1,10 +1,13 @@
 ﻿double a, b, c, d;
 double x, y, z, r;
 
-Console.WriteLine("Enter a, b, c, d (by enter): ");
+Console.Write("Enter a: ");
 a = double.Parse(Console.ReadLine());
+Console.Write("Enter b: ");
 b = double.Parse(Console.ReadLine());
+Console.Write("Enter c: ");
 c = double.Parse(Console.ReadLine());
+Console.Write("Enter d: ");
 d = double.Parse(Console.ReadLine());
 
 x = (a + 2 * b - c + d) / (c * d) + (a + b)/(c-d) - (a*a)/(b*b);
